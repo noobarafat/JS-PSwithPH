@@ -30,23 +30,20 @@
 // 4. Remove the last tourist destination you have added
 // 5. display the final array as output
 
-const happyTravelling = ['Cox-Bazar, Barishal, Sylhet, Mymenshing, Rajshahi, Natore '];
+// const happyTravelling = ['Cox-Bazar, Barishal, Sylhet, Mymenshing, Rajshahi, Natore '];
 
-const travelBD = ['chandpur', 'Dhaka', 'cummila', 'chittagong', 'Naokhali'];
+// const travelBD = ['chandpur', 'Dhaka', 'cummila', 'chittagong', 'Naokhali'];
 
-const ziaTravel = ['Bhola', 'Narayanganj', 'Sariatpur', 'Banani', 'Uttara'];
+// const ziaTravel = ['Bhola', 'Narayanganj', 'Sariatpur', 'Banani', 'Uttara'];
 
-travelBD.push('Saint-martin');
-console.log(travelBD);
+// travelBD.push('Saint-martin');
+// console.log(travelBD);
 
-travelBD.push('Saint-martin');
-travelBD.push('Bandarban');
-travelBD.push('Sylhet');
-travelBD.push('Tetulia');
-console.log(travelBD);
-
-
-
+// travelBD.push('Saint-martin');
+// travelBD.push('Bandarban');
+// travelBD.push('Sylhet');
+// travelBD.push('Tetulia');
+// console.log(travelBD);
 
 
 
@@ -64,6 +61,14 @@ console.log(travelBD);
 // 2. Use the includes method to check if the array contains a javascript book.
 
 // 3. Print a message to the console indicating whether the element is present in the array or not.
+
+const book = ['Ikigai', 'Rich Dad poor Dad', 'Start with why', 'Think like a monk', 'Eat the frog'];
+
+console.log(book.includes('Start with why'));
+console.log(Array.isArray(book));
+
+
+
 
 // ---
 
