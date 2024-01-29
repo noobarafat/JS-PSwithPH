@@ -6,12 +6,15 @@
 // 3. change the value of the 2nd index element to jambura
 // 4. console log the final array
 
-const arr = [12, 23, 45, 65, 67];
-const fruits = ['Apple','Orange', 'Guava', 'Pineapple', 'liche'];
-console.log(fruits[2]);
 
-fruits[2] = 'Strawberry';
-console.log(fruits[2]);
+// const arr = [12, 23, 45, 65, 67];
+// const fruits = ['Apple','Orange', 'Guava', 'Pineapple', 'liche'];
+// console.log(fruits[2]);
+
+// fruits[2] = 'Strawberry';
+// console.log(fruits[2]);
+
+// console.log(fruits);
 
 
 
@@ -26,6 +29,29 @@ console.log(fruits[2]);
 // 3. Add two more to your array
 // 4. Remove the last tourist destination you have added
 // 5. display the final array as output
+
+const happyTravelling = ['Cox-Bazar, Barishal, Sylhet, Mymenshing, Rajshahi, Natore '];
+
+const travelBD = ['chandpur', 'Dhaka', 'cummila', 'chittagong', 'Naokhali'];
+
+const ziaTravel = ['Bhola', 'Narayanganj', 'Sariatpur', 'Banani', 'Uttara'];
+
+travelBD.push('Saint-martin');
+console.log(travelBD);
+
+travelBD.push('Saint-martin');
+travelBD.push('Bandarban');
+travelBD.push('Sylhet');
+travelBD.push('Tetulia');
+console.log(travelBD);
+
+
+
+
+
+
+
+
 
 // ---
 
