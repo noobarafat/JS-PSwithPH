@@ -83,9 +83,9 @@
 // 3. Print a message to the console indicating whether each variable is an array or not.
 
 
-const fav = ['banana', 'coffee', 'Love', 5];
+// const fav = ['banana', 'coffee', 'Love', 5];
 
-console.log(Array.isArray(fav));
+// console.log(Array.isArray(fav));
 
 
 
