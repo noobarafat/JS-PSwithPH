@@ -62,10 +62,10 @@
 
 // 3. Print a message to the console indicating whether the element is present in the array or not.
 
-const book = ['Ikigai', 'Rich Dad poor Dad', 'Start with why', 'Think like a monk', 'Eat the frog'];
+// const book = ['Ikigai', 'Rich Dad poor Dad', 'Start with why', 'Think like a monk', 'Eat the frog'];
 
-console.log(book.includes('Start with why'));
-console.log(Array.isArray(book));
+// console.log(book.includes('Start with why'));
+// console.log(Array.isArray(book));
 
 
 
@@ -82,6 +82,14 @@ console.log(Array.isArray(book));
 
 // 3. Print a message to the console indicating whether each variable is an array or not.
 
+
+const fav = ['banana', 'coffee', 'Love', 5];
+
+console.log(Array.isArray(fav));
+
+
+
+
 // ----
 
 // ### 5. Combining Arrays
@@ -91,3 +99,5 @@ console.log(Array.isArray(book));
 // 1. Create two arrays of your choice.
 // 2. Use the concat method to combine the two arrays into a new array.
 // 3. Print both the original arrays and the combined array using console.log().
+
+
