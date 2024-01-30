@@ -3,6 +3,8 @@
 
 // Display sum of all the odd numbers from 81 to 131.
 
+// using while loop
+
 oddNum = 81;
 oddSum = 0;
 while (oddNum <= 131) {
@@ -12,6 +14,13 @@ while (oddNum <= 131) {
         console.log('Sum of odd numbers', oddSum);
     }
     oddNum++;
+}
+
+// using for loop
+let oddSum = 0;
+for (let oddNum = 81; oddNum <= 131; oddNum += 2) {
+    oddSum = oddNum + oddSum;
+    console.log('Sum of odd numbers', oddSum);
 }
 
 // Subtask-2:
@@ -29,4 +38,11 @@ while (evenNum <= 311) {
 
     }
     evenNum++;
+}
+
+// Using for loop
+let evenSum = 0;
+for (let evenNum = 206; evenNum <= 311; evenNum += 2) {
+    evenSum = evenNum + evenSum;
+    console.log('Sum of even numbers', evenSum);
 }
