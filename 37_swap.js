@@ -14,3 +14,5 @@ let x = 5;
 let y = 7;
 [x, y] = [y, x];
 console.log(x, y)
+
+console.log(Math.pow(2, 3))
