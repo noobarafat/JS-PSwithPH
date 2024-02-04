@@ -1,18 +1,3 @@
-// const phonePrice = [23000, 30000, 34500, 55000, 120000, 145000, 210000];
-
-// function getMin(numbers) {
-//     let min = numbers[0];
-//     for (const num of numbers) {
-//         if (num < min) {
-//             min = num;
-//         }
-//     }
-
-//     return min;
-// }
-
-// const cheap = getMin(phonePrice);
-// console.log("Cheapest one is:", cheap)
 
 
 const mobiles = [
@@ -37,12 +22,12 @@ const mobiles = [
 ];
 
 function getExpensivePhone(mobiles) {
-    let min = mobiles[0];
+    let max = mobiles[0];
     for (const mobile of mobiles) {
-        if (mobile.price < min.price)
-            min = mobile;
+        if (mobile.price > max.price)
+            max = mobile;
     }
-    return min;
+    return max;
 }
-const expensive = getExpensivePhone(mobiles)
-console.log("Cheapest phone is:", expensive)
+const cheap = getExpensivePhone(mobiles)
+console.log("Expensive phone is:", expensive)
